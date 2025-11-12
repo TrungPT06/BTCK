@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useNavigate, Link } from "react-router-dom"; 
+import { useNavigate, Link } from "react-router-dom";
 
 const MenuTop = () => {
   const [user, setUser] = useState(null);
@@ -29,16 +29,16 @@ const MenuTop = () => {
         </li>
         {/* ... (các link bên ngoài khác) ... */}
         <li>
-          <a
-            target="_blank"
-            rel="noreferrer"
-            href="https://giadinh.edu.vn/de-an-tuyen-sinh-truong-dai-hoc-gia-dinh-nam-2024"
-          >
-            Đề án tuyển sinh
+          <a target="blank" href="https://lms.giadinh.edu.vn/">
+            Giỏ hàng
           </a>
         </li>
-         {/* ... (ví dụ các link khác) ... */}
-
+        <li>
+          <a target="blank" href="https://library.giadinh.edu.vn/search">
+            Lịch sử mua hàng
+          </a>
+        </li>
+        {/* ... (ví dụ các link khác) ... */}
 
         {/* ================================================= */}
         {/* THÊM MỚI: Link "Quản lý" chỉ hiện khi admin đăng nhập */}
@@ -50,7 +50,6 @@ const MenuTop = () => {
           </li>
         )}
         {/* ================================================= */}
-
 
         {/* LI cuối cùng cho Đăng nhập/Đăng xuất */}
         <li>
