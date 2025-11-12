@@ -5,10 +5,7 @@ const Footer = () => {
         <div class="container_main">
           <div class="logo_footer">
             <a href="">
-              <img
-                src="https://www.dammio.com/wp-content/uploads/2019/02/cellphoneS_logo-1024x341.png"
-                alt="Logo"
-              />
+              <img src="" alt="Logo" />
             </a>
           </div>
           <div class="content_footer"></div>
